@@ -1,17 +1,38 @@
-@import "../../assets/fonts/Huge/stylesheet.css";
+@import "../../assets/fonts/Southwest/stylesheet.css";
 
-.font-huge {
-	font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+.font-SWBlack {
+	font-family: 'SouthwestSansW01-Black', Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	font-weight: normal;
+	font-weight:900;
 }
 
-.font-galaxie {
-	font-family: 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
+.font-SWBold {
+	font-family: 'SouthwestSansW01-Bold', Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	font-weight: normal;
+	font-weight:800;
+}
+
+.font-SWMed {
+	font-family: 'SouthwestSansW01-Bold', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight:600;
+}
+
+.font-SWReg {
+	font-family: 'SouthwestSansW01-Regular', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight:400;
+}
+
+.font-SWLight {
+	font-family: 'SouthwestSansW01-Light', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight:200;
 }
 
 .italic {
@@ -29,8 +50,8 @@ h2 {
 }
 
 h3 {
-	font-size: 38px;
-	line-height: 45px;
+	font-size: 60px;
+	line-height: 72px;
 }
 
 .p1, .p2 {
@@ -47,9 +68,10 @@ h3 {
 #typography {
   h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
+		letter-spacing:-.03em;
   }
   p {
-  	font: 16px/2 "Galaxie";
+  	font: 16px/2 "SouthwestSansW01-Regular";
   	margin: 2em 0;
   }
 }

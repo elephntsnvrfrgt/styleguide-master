@@ -6,24 +6,24 @@
         "fonts": [
             {
                 "heading": "1",
-                "fontName" : "HUGE Avant Garde Bold",
+                "fontName" : "Southwest Sans Black",
                 "fontSize": "100px",
-                "className": "font-huge",
-                "title": "Hello."
+                "className": "font-SWBlack",
+                "title": "Flight Schedules"
             },
             {
                 "heading": "2",
-                "fontName" : "Galaxie Copernicus Book Italic",
+                "fontName" : "Southwest Sans Bold",
                 "fontSize": "80px",
-                "className": "font-galaxie italic",
-                "title": "Thursday"
+                "className": "font-SWBold",
+                "title": "A-List Preferred"
             },
             {
                 "heading": "3",
-                "fontName" : "HUGE Avant Garde Bold",
-                "fontSize": "38px",
-                "className": "font-huge small-3",
-                "title": "Born Hackers: Digital Kids Revisited."
+                "fontName" : "Southwest Sans Medium",
+                "fontSize": "60px",
+                "className": "font-SWMed",
+                "title": "Companion Pass"
             }
         ],
         "paragraphsName": "Paragraphs",

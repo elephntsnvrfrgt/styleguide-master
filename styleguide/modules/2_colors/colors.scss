@@ -1,23 +1,84 @@
-$magenta: #ec008c;
-$black: #000;
-$grey-dark: #232525;
-$grey: #808080;
-$blue: #2fbbf9;
+$red: #d5152e;
+$yellow: #ffbf27;
+$blue: #304cb2;
+$dark-blue: #111b40;
+$orange: #ff792e;
+$green: #008522;
+$teal: #0076a5;
+$light-blue: #a4baf2;
+$hover-blue: #294299;
+$selected-blue: #1a2c80;
+$gray: #636363;
+$white: #ffffff;
+$gray1: #f5f5f5;
+$gray2: #e6e7e8;
+$gray3: #cccccc;
+$gray4: #8f8f8f;
 
-.bg-magenta {
-	background-color: $magenta;
+
+
+.p-red {
+	background-color: $red;
 }
 
-.bg-black {
-	background-color: $black;
+.p-yellow {
+	background-color: $yellow;
 }
 
-.bg-grey {
-	background-color: $grey;
-}
-
-.bg-blue {
+.p-blue {
 	background-color: $blue;
+}
+
+.p-dark-blue {
+	background-color: $dark-blue;
+}
+
+.s-orange {
+	background-color: $orange;
+}
+
+.s-green {
+	background-color: $green;
+}
+
+.s-teal {
+	background-color: $teal;
+}
+
+.s-light-blue {
+	background-color: $light-blue;
+}
+
+.s-hover-blue {
+	background-color: $hover-blue;
+}
+
+.s-selected-blue {
+	background-color: $selected-blue;
+}
+
+.s-gray {
+	background-color: $gray;
+}
+
+.n-white {
+	background-color: $white;
+}
+
+.n-gray1 {
+	background-color: $gray1;
+}
+
+.n-gray2 {
+	background-color: $gray2;
+}
+
+.n-gray3 {
+	background-color: $gray3;
+}
+
+.n-gray4 {
+	background-color: $gray4;
 }
 
 #colors {
@@ -38,6 +99,7 @@ $blue: #2fbbf9;
     .color {
       height: 120px;
       margin-right: 0.9375em;
+			border: 1px solid $gray1;
     }
 
     &:last-child {

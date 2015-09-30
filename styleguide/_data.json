@@ -2,7 +2,7 @@
   "clientName": "Southwest",
   "version": "2",
   "language": "en_US",
-  "logoImage": "logo_placeholder.png",
+  "logoImage": "Southwest_heart.svg",
   "breakpoints": [
     {
       "id": "small",
@@ -39,5 +39,5 @@
       "styleguide": "Styleguide"
     }
   },
-  "date": "2015/9/29"
+  "date": "2015/9/30"
 }

@@ -2,19 +2,55 @@
     "id": "colors",
     "name": "Colors",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black. Additional Blue might be found on slides or t-shirts."],
+        "intro": ["P = Primary, S = Secondary, N = Neutral."],
         "colors": [
             {
-                "className": "bg-magenta"
+                "className": "p-red"
             },
             {
-                "className": "bg-black"
+                "className": "p-yellow"
             },
             {
-                "className": "bg-grey"
+                "className": "p-blue"
             },
             {
-                "className": "bg-blue"
+                "className": "p-dark-blue"
+            },
+            {
+                "className": "s-orange"
+            },
+            {
+                "className": "s-green"
+            },
+            {
+                "className": "s-teal"
+            },
+            {
+                "className": "s-light-blue"
+            },
+            {
+                "className": "s-hover-blue"
+            },
+            {
+                "className": "s-selected-blue"
+            },
+            {
+                "className": "s-gray"
+            },
+            {
+                "className": "n-white"
+            },
+            {
+                "className": "n-gray1"
+            },
+            {
+                "className": "n-gray2"
+            },
+            {
+                "className": "n-gray3"
+            },
+            {
+                "className": "n-gray4"
             }
         ]
     }
